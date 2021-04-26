@@ -27,9 +27,9 @@ const Giphy = () => {
     }, [])
 
 
-    
+    // gif URL is being return in console when I click the button, but I can't render the gif in the browser.
     const handleClick = async () => {
-        
+        console.log(data)
     }
  
         return (
